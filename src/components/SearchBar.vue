@@ -1,11 +1,15 @@
 <template>
     <div>
-        <h3>jjj</h3>
+        <input />
     </div>
 </template>
-<script>
 
+<script>
 export default {
-    name: 'App',
+
 }
 </script>
+
+<style>
+
+</style>
