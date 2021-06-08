@@ -1,11 +1,19 @@
 <template>
     <div>
-        <h3>jjj</h3>
+        <SearchBar @termChange="onTermChange"></SearchBar>
     </div>
 </template>
 <script>
-
+import SearchBar from './components/SearchBar.vue';
 export default {
     name: 'App',
+    components:{
+        SearchBar
+    },
+    methods:{
+        onTermChange(searchTerm){
+
+        }
+    }
 }
 </script>
